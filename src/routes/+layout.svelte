@@ -3,6 +3,10 @@
     let { children } = $props();
 </script>
 
+<svelte:head>
+	<title>SvelteKit Tutorial!</title>
+</svelte:head>
+
 <nav>
     <ul>
         <li><a href="/">Home</a></li>
